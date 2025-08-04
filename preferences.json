@@ -1,0 +1,20 @@
+[
+  {
+    "property": "mod.zenbettermusicbar.enabled",
+    "label": "Enable/Disable Feature",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+  {
+    "property": "mod.zenbettermusicbar.alwaysshow",
+    "label": "Always Extend Music Bar",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+  {
+    "property": "mod.zenbettermusicbar.custombackground",
+    "label": "Custom Background Color",
+    "type": "string",
+    "defaultValue": "var(--zen-media-control-bg)"
+  }
+]

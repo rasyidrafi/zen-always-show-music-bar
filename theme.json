@@ -1,0 +1,20 @@
+{
+  "id": "3c8ebf69-1042-49b1-8f08-9178f9490659",
+  "name": "Better Music Bar",
+  "description": "Make your zen music bar better.",
+  "homepage": "https://github.com/rasyidrafi/zen-always-show-music-bar",
+  "image": "https://github.com/rasyidrafi/zen-always-show-music-bar/blob/main/image.png?raw=true",
+  "style": {
+    "chrome": "https://raw.githubusercontent.com/rasyidrafi/zen-always-show-music-bar/refs/heads/main/chrome.css"
+  },
+  "readme": "https://raw.githubusercontent.com/rasyidrafi/zen-always-show-music-bar/refs/heads/main/README.md",
+  "preferences": "https://raw.githubusercontent.com/rasyidrafi/zen-always-show-music-bar/refs/heads/main/preferences.json",
+  "author": "rasyidrafi",
+  "version": "1.0.2",
+  "tags": [
+    "UI"
+  ],
+  "createdAt": "2025-07-29",
+  "updatedAt": "2025-08-04",
+  "fork": ["zen", "firefox"]
+}

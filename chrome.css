@@ -1,0 +1,36 @@
+@media (-moz-bool-pref: "mod.zenbettermusicbar.enabled") {
+  :root {
+    --mod-zenbettermusicbar-showcover-final: var(
+      --mod-zenbettermusicbar-showcover,
+      true
+    );
+    --mod-zenbettermusicbar-custombackground-final: var(
+      --mod-zenbettermusicbar-custombackground,
+      var(
+        --zen-media-control-bg,
+        color-mix(in srgb, rgb(255, 183, 135) 15%, light-dark(white, black))
+      )
+    );
+  }
+
+  #zen-media-controls-toolbar toolbaritem {
+    background-color: var(
+      --mod-zenbettermusicbar-custombackground-final
+    ) !important;
+  }
+
+  @media (-moz-bool-pref: "mod.zenbettermusicbar.alwaysshow") {
+    #zen-media-progress-hbox,
+    #zen-media-info-container {
+      max-height: 50px !important;
+      padding: 5px !important;
+      padding-top: 5px !important;
+      margin-bottom: 0 !important;
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+      pointer-events: auto !important;
+    }
+  }
+
+  
+}
