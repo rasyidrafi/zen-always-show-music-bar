@@ -50,6 +50,12 @@
     }
   }
 
+  @media (-moz-bool-pref: "mod.zenbettermusicbar.hideparticles") {
+    #zen-media-focus-button::after {
+      display: none !important;
+    }
+  }
+
   /* if all hide then hide toolbar */
   @media (-moz-bool-pref: "mod.zenbettermusicbar.hidemusicinfo") and (-moz-bool-pref: "mod.zenbettermusicbar.hideprogress") and (-moz-bool-pref: "mod.zenbettermusicbar.hidecontrol") {
     #zen-media-controls-toolbar {

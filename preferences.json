@@ -30,6 +30,12 @@
     "defaultValue": false
   },
   {
+    "property": "mod.zenbettermusicbar.hideparticles",
+    "label": "Hide Particles",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+  {
     "property": "mod.zenbettermusicbar.custombackground",
     "label": "Custom Background Color",
     "type": "string",
