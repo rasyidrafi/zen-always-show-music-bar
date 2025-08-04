@@ -32,5 +32,28 @@
     }
   }
 
-  
+  @media (-moz-bool-pref: "mod.zenbettermusicbar.hidemusicinfo") {
+    #zen-media-info-container {
+      display: none !important;
+    }
+  }
+
+  @media (-moz-bool-pref: "mod.zenbettermusicbar.hideprogress") {
+    #zen-media-progress-hbox {
+      display: none !important;
+    }
+  }
+
+  @media (-moz-bool-pref: "mod.zenbettermusicbar.hidecontrol") {
+    #zen-media-controls-hbox {
+      display: none !important;
+    }
+  }
+
+  /* if all hide then hide toolbar */
+  @media (-moz-bool-pref: "mod.zenbettermusicbar.hidemusicinfo") and (-moz-bool-pref: "mod.zenbettermusicbar.hideprogress") and (-moz-bool-pref: "mod.zenbettermusicbar.hidecontrol") {
+    #zen-media-controls-toolbar {
+      display: none !important;
+    }
+  }
 }

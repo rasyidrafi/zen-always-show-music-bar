@@ -12,6 +12,24 @@
     "defaultValue": true
   },
   {
+    "property": "mod.zenbettermusicbar.hidemusicinfo",
+    "label": "Hide Music Info",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+  {
+    "property": "mod.zenbettermusicbar.hideprogress",
+    "label": "Hide Progress Bar",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+  {
+    "property": "mod.zenbettermusicbar.hidecontrol",
+    "label": "Hide Control Bar",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+  {
     "property": "mod.zenbettermusicbar.custombackground",
     "label": "Custom Background Color",
     "type": "string",

@@ -7,6 +7,7 @@ A theme extension for Zen Browser and Firefox (with Sine) that enhances the musi
 - 🎵 **Always Show Music Bar** - Keep the music bar and its controls visible at all times
 - 🎨 **Custom Background Color** - Set your own background color for the music bar
 - 🖼️ **Show/Hide Cover Art** - Optionally display cover art in the music bar
+- 🙈 **Hide Music Info, Progress, or Controls** - Hide individual sections of the music bar as you wish
 - ⚡ **Lightweight** - Minimal CSS for smooth performance
 - 🛠️ **Easy Configuration** - Simple toggle and color customization options
 
@@ -48,7 +49,12 @@ This theme includes several customization options configurable through Sine's pr
 
 - **Enable/Disable Feature**: Toggle the entire music bar customization on or off (default: enabled)
 - **Always Extend Music Bar**: Keep the music bar always visible (default: enabled)
+- **Hide Music Info**: Hide the music information section (default: disabled)
+- **Hide Progress Bar**: Hide the progress bar section (default: disabled)
+- **Hide Control Bar**: Hide the control buttons section (default: disabled)
 - **Custom Background Color**: Set a custom background color for the music bar (default: `var(--zen-media-control-bg)`)
+
+> **Tip:** If you enable all three "Hide" options, the entire music bar will be hidden.
 
 ### How to Configure
 
@@ -57,6 +63,7 @@ This theme includes several customization options configurable through Sine's pr
 3. Adjust the following options as desired:
    - Toggle the feature on/off with the main checkbox
    - Enable or disable always-visible music bar
+   - Hide music info, progress bar, or control bar individually
    - Set your preferred background color
 4. Changes will apply automatically
 
@@ -64,6 +71,7 @@ This theme includes several customization options configurable through Sine's pr
 
 - **Always-visible controls**: Ensures the music bar and its controls are always accessible
 - **Custom backgrounds**: Lets you personalize the music bar's appearance
+- **Hide sections**: Hide music info, progress, or controls as you prefer
 - **Flexible configuration**: Easy-to-use options for enabling/disabling features
 
 ## Compatibility
